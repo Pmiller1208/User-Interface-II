@@ -140,8 +140,12 @@ p {
 /* Footer */
 footer {
     background: grey;
-    height: 20vh;
+    height: 25vh;
     text-align: center;
+}
+
+a {
+    margin: 20px 10px;
 }
 
 footer h2 {
@@ -155,5 +159,33 @@ footer h2 {
 
 button a {
     text-decoration: none;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 0%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
     color: white;
 }
