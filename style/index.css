@@ -22,11 +22,10 @@ vertical-align: baseline;
 
 *{
     box-sizing: border-box;
-    box-sizing:border-box;
-    padding:0;
+    padding: 0px;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    border:1px solid red;
 }
 
 
@@ -36,13 +35,27 @@ header {
     height: 15vh;
 }
 
+h1 {
+    padding: 20px 20px;
+    color: white;
+}
+
 nav a {
     text-decoration: none;
     border: 2px solid black;
     padding: 10px;
     background: white;
     color: black;
-    margin: 40px 10px
+    margin: 40px 10px;
+    border-radius: 10px;
+}
+
+.head {
+    display: flex;
+}
+
+.head img {
+    width: 60%
 }
 
 /* Section next to image */
@@ -55,8 +68,39 @@ nav a {
     text-decoration: none;
     border: 2px solid black;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .container {
     display: flex;
+    justify-content: center;
+}
+
+.one {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    background: grey;
 }
