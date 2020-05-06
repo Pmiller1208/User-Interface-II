@@ -12,11 +12,51 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,  
 menu, nav, output, ruby, section, summary,  
 time, mark, audio, video {  
-margin: 0;  
+/* margin: 0;  
 padding: 0;  
 border: 0;  
-font-size: 100%;  
-font: inherit;  
-vertical-align: baseline;
-box-sizing: border-box;  
+/* font-size: 100%;   */
+/* font: inherit;   */
+vertical-align: baseline;  
+}
+
+*{
+    box-sizing: border-box;
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+}
+
+
+/* Header */
+header {
+    background: grey;
+    height: 15vh;
+}
+
+nav a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    background: white;
+    color: black;
+    margin: 40px 10px
+}
+
+/* Section next to image */
+
+.button {
+    background: #4169E1;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
 }
