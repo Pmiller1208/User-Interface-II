@@ -130,9 +130,8 @@ p {
 /* Footer */
 footer {
     background: grey;
-    height: 25vh;
+    height: 20vh;
     text-align: center;
-    padding: 30px;
 }
 
 footer h2 {
