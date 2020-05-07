@@ -2,10 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=    <h1> ABOUT </h1>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+        <style>
+            body {
+                font-family: 'Alatsi';
+            }
+        </style>
+    <title>Contact</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href='index.html'>Home</a>
+            <a href='about.html'>About</a>
+            <a id="contact" href='contact.html'>Contact</a>
+            <a href='projects.html'>Projects</a>
+        </nav>
+    </header>
     <h1> CONTACT </h1>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="mexico">Mexico</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <footer>
+        <div>
+            <h2>Like what you see?</h2>
+            <button class="button" id="foot-button"><a href="contact.html">Contact Me</button>
+        </div>
+        <div>
+            <a href="http://facebook.com" class="fa fa-facebook"></a>
+            <a href="http://twitter.com" class="fa fa-twitter"></a>
+            <a href="http://linkedin.com" class="fa fa-linkedin"></a>
+        </div>
+    
+    </footer>
 </body>
 </html>
