@@ -19,6 +19,15 @@ border: 0;
 vertical-align: baseline;  
 }
 
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
 /* Header */
 header {
     background: grey;
@@ -27,16 +36,6 @@ header {
 
 body {
     max-width: 100%;
-    margin: 0 auto;
-}
-
-h1 {
-    text-align: center;
-    margin: 50px auto;
-}
-
-h2 {
-    padding: 20px;
     margin: 0 auto;
 }
 
@@ -74,12 +73,12 @@ nav a:hover {
 /* Input form */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
+    padding: 1.2rem; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: .6rem; /* Add a top margin */
+    margin-bottom: 1.6rem; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
@@ -87,7 +86,7 @@ input[type=text], select, textarea {
   input[type=submit] {
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
+    padding: 1.2rem 2rem;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -100,11 +99,11 @@ input[type=text], select, textarea {
   
   /* Add a background color and some padding around the form */
   .container {
-    border-radius: 5px;
+    border-radius: .5rem;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 2rem;
     max-width: 80%;
-    margin: 80px auto;
+    margin: 6rem auto;
   }
 
   /* footer */
@@ -115,7 +114,7 @@ input[type=text], select, textarea {
 }
 
 a {
-    margin: 20px 10px;
+    margin: 2rem 1rem;
 }
 
 footer h2 {
@@ -124,13 +123,13 @@ footer h2 {
 .button {
     background: #4169E1;
     color: white;
-    padding: 15px 30px;
+    padding: 1.5rem 3rem;
     text-align: center;
     text-decoration: none;
     border: 2px solid black;
     cursor: pointer;
-    border-radius: 10px;
-    margin-left: 20px;
+    border-radius: 1rem;
+    margin-left: 2rem;
 }
 
 #foot-button {
@@ -144,11 +143,11 @@ button a {
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 2rem;
+    font-size: 3rem;
     text-align: center;
     text-decoration: none;
-    margin: 5px 5px;
+    margin: 2rem;
 }
 
 .fa:hover {

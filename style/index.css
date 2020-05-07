@@ -22,6 +22,7 @@ vertical-align: baseline;
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body {
@@ -251,10 +252,22 @@ button a {
 
 @media(max-width:400px){
     header {
-        height:10vh
+        height:15vh
     }
 
     p {
         font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 3.4rem;
+    }
+
+    .button {
+        font-size: 2rem;
+    }
+
+    .container img{
+        width: 80%;
     }
 }

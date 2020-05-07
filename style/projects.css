@@ -19,16 +19,21 @@ border: 0;
 vertical-align: baseline;  
 }
 
-*{
+html {
+    font-size: 62.5%;
     box-sizing: border-box;
-    /* padding: 0px; */
-    margin:0;
-    max-width:100%;
 }
 
 body {
+    font-size: 1.6rem;
     width: 100%;
     margin: 0 auto;
+}
+
+*{
+    /* padding: 0px; */
+    margin:0;
+    max-width:100%;
 }
 
 /* Header */
@@ -37,22 +42,9 @@ header {
     height: 15vh;
 }
 
-h1 {
-    padding: 20px 20px;
-    color: white;
-}
-
-h2 {
-    padding: 20px;
-}
-
-h3 {
-    padding: 20px;
-}
-
 nav {
     text-align: center;
-    padding-top: 45px;
+    padding-top: 4.5rem;
 }
 
 nav a {
@@ -95,25 +87,34 @@ nav a:hover {
 /* Content */
 
 .head, p {
-    padding: 30px;
-    font-size: 120%;
+    padding: 3rem;
+    font-size: 2.4rem;
     width: 90%;
     margin: 0 auto;
     text-align: justify;
 }
 
+h2 {
+    font-size: 2.4rem;
+    padding: 2rem;
+    
+}
 
+h3 {
+    font-size: 3rem;
+    padding: 2rem;
+}
 
 .button {
     background: #4169E1;
     color: white;
-    padding: 15px 30px;
+    padding: 1.5rem 3rem;
     text-align: center;
     text-decoration: none;
     border: 2px solid black;
     cursor: pointer;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 .container {
@@ -124,7 +125,7 @@ nav a:hover {
 .one, .two, .three, .four {
     height: 50%;
     width: 50%;
-    padding: 20px;
+    padding: 2rem;
     margin: 0 auto;
 }
 
@@ -160,7 +161,7 @@ footer {
 }
 
 a {
-    margin: 20px 10px;
+    margin: 2rem 1rem;
 }
 
 footer h2 {
@@ -178,11 +179,11 @@ button a {
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 2rem;
+    font-size: 3rem;
     text-align: center;
     text-decoration: none;
-    margin: 5px 5px;
+    margin: .5rem;
 }
 
 .fa:hover {
