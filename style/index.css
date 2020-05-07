@@ -12,17 +12,24 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,  
 menu, nav, output, ruby, section, summary,  
 time, mark, audio, video {  
-/* margin: 0;  
+margin: 0;  
 padding: 0;  
 border: 0;  
-/* font-size: 100%;   */
-/* font: inherit;   */
+font-size: 100%;
+/* font: inherit; */
 vertical-align: baseline;  
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
 *{
     box-sizing: border-box;
-    padding: 0px;
+    padding: 0;
     margin:0;
     max-width:100%;
 }
@@ -31,26 +38,30 @@ vertical-align: baseline;
 /* Header */
 header {
     background: grey;
-    height: 20vh;
+    height: 25vh;
 }
 
 h1 {
-    padding: 20px 20px;
+    padding: 2% 1%;
     color: white;
+    font-size: 3rem
 }
 
 h2 {
-    padding: 20px;
+    padding: 2%;
+    font-size: 3.2rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 h3 {
-    padding: 20px;
+    padding: 3%;
 }
 
 nav a {
     text-decoration: none;
     border: 2px solid black;
-    padding: 10px;
+    padding: .5%;
     background: white;
     color: black;
     margin: 40px 10px;
@@ -88,9 +99,10 @@ nav a:hover {
 /* Content */
 
 p {
-    padding-left: 30px;
-    padding-top: 30px;
-    font-size: 150%
+    padding: 3%;
+    font-size: 2.4rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 
@@ -98,13 +110,13 @@ p {
 .button {
     background: #4169E1;
     color: white;
-    padding: 15px 30px;
+    padding: 2% 3%;
     text-align: center;
     text-decoration: none;
     border: 2px solid black;
     cursor: pointer;
     border-radius: 10px;
-    margin-left: 20px;
+    margin: 0 auto;
 }
 
 .container {
@@ -144,12 +156,13 @@ p {
 /* Footer */
 footer {
     background: grey;
-    height: 25vh;
+    height: 30vh;
     text-align: center;
 }
 
-a {
-    margin: 20px 10px;
+footer a {
+    display: flex;
+    align-items: center;
 }
 
 footer h2 {
@@ -157,8 +170,15 @@ footer h2 {
 }
 
 #foot-button {
+    background: #4169E1;
+    color: white;
+    text-align: center;
+    text-decoration: none;
     border: 2px solid white;
-    color: white; 
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1%; 
 }
 
 button a {
@@ -182,14 +202,17 @@ button a {
 .fa-facebook {
     background: #3b5998;
     color: white;
+    margin: 20px 10px;
 }
 
 .fa-twitter {
     background: #55acee;
     color: white;
+    margin: 20px 10px;
 }
 
 .fa-linkedin {
     background: #007bb5;
     color: white;
+    margin: 20px 10px;
 }
