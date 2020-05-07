@@ -31,7 +31,7 @@ vertical-align: baseline;
 /* Header */
 header {
     background: grey;
-    height: 15vh;
+    height: 20vh;
 }
 
 h1 {
@@ -40,6 +40,10 @@ h1 {
 }
 
 h2 {
+    padding: 20px;
+}
+
+h3 {
     padding: 20px;
 }
 
