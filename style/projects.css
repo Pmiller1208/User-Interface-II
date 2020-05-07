@@ -21,9 +21,14 @@ vertical-align: baseline;
 
 *{
     box-sizing: border-box;
-    padding: 0px;
+    /* padding: 0px; */
     margin:0;
     max-width:100%;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -41,11 +46,19 @@ h2 {
     padding: 20px;
 }
 
+h3 {
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    padding-top: 45px;
+}
+
 nav a {
     text-decoration: none;
     border: 2px solid black;
     padding: 10px;
-    padding-top: 20px;
     background: white;
     color: black;
     margin: 40px 10px;
@@ -63,29 +76,30 @@ nav a:hover {
 
 .head {
     margin-bottom: 40px;
-    display: flex;
 }
 
 .head img {
     width: 50%
 }
 
-#home {
+#projects {
     background: black;
     color: white;
 }
 
-#home:hover {
+#projects:hover {
     background: white;
     color: black;
 }
 
 /* Content */
 
-p {
-    padding-left: 30px;
-    padding-top: 30px;
-    font-size: 150%
+.head, p {
+    padding: 30px;
+    font-size: 120%;
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 
@@ -104,12 +118,14 @@ p {
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 .one, .two, .three, .four {
-    height: 100%;
-    width: 100%;
-    padding: 20px
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .one {
